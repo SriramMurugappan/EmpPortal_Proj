@@ -2,10 +2,23 @@
 @{
 }
 
+
 <h1>Employee List</h1>
 
-<table class="table">
-	<thead>
+<div class="mb-3">
+
+    <input type="text" class="form-control" placeholder="Search for an Employee..." id="searchInput">
+
+</div>
+<style>
+	table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	
+</style>
+<table class="table table-hover table-light" >
+	<thead class="thead-dark">
 		<tr>
 			<th>ID</th>
 			<th>Name</th>
@@ -27,11 +40,32 @@
 				<td>@employee.DateOfBirth.ToString("dd-MM-yyyy")</td>
 				<td>@employee.Department</td>
 				<td>
-					<a href="Employees/View/@employee.Id"><button class="btn btn-outline-primary">View</button></a>
+					<a href="Employees/View/@employee.Id"><button class="btn btn-outline-success">View/Edit</button></a>
 
 			</td>
 				
 			</tr>
+			
 		}
 	</tbody>
 </table>
+
+@section scripts {
+<script>
+        $(function () {
+            $("#searchInput").on("input", function () {
+                var searchTerm = $(this).val().toLowerCase();
+ 
+                $("tbody tr").each(function () {
+                    var rowText = $(this).text().toLowerCase();
+ 
+                    if (rowText.includes(searchTerm)) {
+                        $(this).show();
+                    } else {
+                        $(this).hide();
+                    }
+                });
+            });
+        });
+</script>
+}

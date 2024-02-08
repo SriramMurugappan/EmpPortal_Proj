@@ -5,8 +5,32 @@
       "PackagePath": "staticwebassets\\WebApplication2.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\srirammurugappan.m\\source\\repos\\All Files\\MvcProj1\\WebApplication2\\wwwroot\\css\\background(1)",
+      "PackagePath": "staticwebassets\\css"
+    },
+    {
+      "Id": "C:\\Users\\srirammurugappan.m\\source\\repos\\All Files\\MvcProj1\\WebApplication2\\wwwroot\\css\\background(2).jpg",
+      "PackagePath": "staticwebassets\\css\\background(2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\srirammurugappan.m\\source\\repos\\All Files\\MvcProj1\\WebApplication2\\wwwroot\\css\\bg(1).jfif",
+      "PackagePath": "staticwebassets\\css\\bg(1).jfif"
+    },
+    {
+      "Id": "C:\\Users\\srirammurugappan.m\\source\\repos\\All Files\\MvcProj1\\WebApplication2\\wwwroot\\css\\cmpny(1).png",
+      "PackagePath": "staticwebassets\\css\\cmpny(1).png"
+    },
+    {
+      "Id": "C:\\Users\\srirammurugappan.m\\source\\repos\\All Files\\MvcProj1\\WebApplication2\\wwwroot\\css\\cmpny.jfif",
+      "PackagePath": "staticwebassets\\css\\cmpny.jfif"
+    },
+    {
       "Id": "C:\\Users\\srirammurugappan.m\\source\\repos\\All Files\\MvcProj1\\WebApplication2\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\srirammurugappan.m\\source\\repos\\All Files\\MvcProj1\\WebApplication2\\wwwroot\\css\\technology-infrastructure.jpg",
+      "PackagePath": "staticwebassets\\css\\technology-infrastructure.jpg"
     },
     {
       "Id": "C:\\Users\\srirammurugappan.m\\source\\repos\\All Files\\MvcProj1\\WebApplication2\\wwwroot\\favicon.ico",

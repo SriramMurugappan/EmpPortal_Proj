@@ -1,14 +1,15 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
-<div class="text-center">
+<head>
+    <link rel="stylesheet" href="site.css" />
+</head>
+<div class="text-center ">
     <h1 class="display-4">Employee Portal</h1>
-    <h3>Welcome, @ViewData["UserID"] </h3>
+    <h3>Welcome,@ViewData["UserName"] <br/></h3>
+    <h4>UserID: @ViewData["UserID"] </h4>
 </div>
-<div>
-    <a href="Employees/Add">Add New Employees</a>
-</div>
-<div>
-    <a href="Employees">Employees List</a>
-</div>
+<div class="button">
+    <button><a href="/Employees/Add">Add New Employees</a></button><br /><br />
+    <button><a href="/Employees">Employees List</a></button>
+</div>-

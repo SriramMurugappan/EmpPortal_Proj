@@ -273,3 +273,4 @@ C:\Users\srirammurugappan.m\source\repos\All Files\MvcProj1\WebApplication2\bin\
 C:\Users\srirammurugappan.m\source\repos\All Files\MvcProj1\WebApplication2\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\srirammurugappan.m\source\repos\All Files\MvcProj1\WebApplication2\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\srirammurugappan.m\source\repos\All Files\MvcProj1\WebApplication2\obj\Debug\net6.0\WebApplication2.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\srirammurugappan.m\source\repos\All Files\MvcProj1\WebApplication2\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll

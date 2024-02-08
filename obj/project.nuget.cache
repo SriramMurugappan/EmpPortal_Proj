@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hh/XZpAYTEDE6CJr1AAsLTpcmMNFRH9ppo7QI4hnnutNtapBmxo2+n8D5CmVkqLl4ZfkipRgGD0UiiGaPDiMaQ==",
+  "dgSpecHash": "L2d28MtoleLcDqC0iO4CQuT8pT6eFGV6A40Jf9VKhaxVtSYzzxQUjZy7Z/vFQpmN146Ku4u+bRtoq3j2tf6ykg==",
   "success": true,
   "projectFilePath": "C:\\Users\\srirammurugappan.m\\source\\repos\\All Files\\MvcProj1\\WebApplication2\\WebApplication2.csproj",
   "expectedPackageFiles": [
@@ -56,9 +56,11 @@
     "C:\\Users\\srirammurugappan.m\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\srirammurugappan.m\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\srirammurugappan.m\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\srirammurugappan.m\\.nuget\\packages\\jquery\\3.7.0\\jquery.3.7.0.nupkg.sha512",
     "C:\\Users\\srirammurugappan.m\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\srirammurugappan.m\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\srirammurugappan.m\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
+    "C:\\Users\\srirammurugappan.m\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\6.0.26\\microsoft.aspnetcore.authentication.google.6.0.26.nupkg.sha512",
     "C:\\Users\\srirammurugappan.m\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.23\\microsoft.aspnetcore.cryptography.internal.6.0.23.nupkg.sha512",
     "C:\\Users\\srirammurugappan.m\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.23\\microsoft.aspnetcore.cryptography.keyderivation.6.0.23.nupkg.sha512",
     "C:\\Users\\srirammurugappan.m\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.23\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.23.nupkg.sha512",

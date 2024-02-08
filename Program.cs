@@ -4,16 +4,25 @@ using Microsoft.AspNetCore.Identity;
 using WebApplication2.Areas.Identity.Data;
 
 var builder = WebApplication.CreateBuilder(args);
+var configuration = builder.Configuration;
 var connectionString = builder.Configuration.GetConnectionString("WebAppContextConnection") ?? throw new InvalidOperationException("Connection string 'WebAppContextConnection' not found.");
 
+builder.Services.AddAuthentication().AddGoogle(googleOptions =>
+{
+    googleOptions.ClientId = configuration["Authentication:Google:ClientId"];
+    googleOptions.ClientSecret = configuration["Authentication:Google:ClientSecret"];
+});
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddRazorPages();
 
+
+
 builder.Services.Configure<IdentityOptions>(options =>
 {
     options.Password.RequireUppercase = false;
+    
 });
 
 builder.Services.AddDbContext<MvcDBContext>(options =>

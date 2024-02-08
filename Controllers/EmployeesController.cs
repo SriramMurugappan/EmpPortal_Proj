@@ -33,6 +33,11 @@ namespace WebApplication2.Controllers
         //Method is totally Asynchronous (can perform multiple tasks at a time)
         public async Task<IActionResult> Add(AddEmployeeViewModel addEmployeeRequest) //addEmployeeRequest is used as value to call the ef and save the values in the database.
         {
+            if (!ModelState.IsValid)
+            {
+                // If the model state is not valid, return to the view with validation errors
+                return View(addEmployeeRequest); // Assuming there's a corresponding view for the Add action
+            }
             var employee = new Employee() //creating new object to convert AddEmployeeViewModel to Employee model
             {
                 Id = Guid.NewGuid(), //new properties for new objects
